@@ -7,40 +7,40 @@ const chalk = require("chalk");
 //to enable function - true
 //to disable function - false
 //
-global.available = false;
+global.available = true;
 global.autoReadGc = false;
 global.autoReadAll = false;
-global.antitags = false;
+global.antitags = true;
 
 
 //auto functioner
-global.autoTyping = false;                //make true to enable auto typing
-global.autoRecord = true;                //make true to enable auto recording
+global.autoTyping = true;                //make true to enable auto typing
+global.autoRecord = false;                //make true to enable auto recording
 global.groupevent = true;                //This is the new variable for controlling group event handling.
 global.statusseen = false;                 //make true to view statuses 
 
 
 //
-/*global.Owner = process.env.OWNER || "2347045174399";// Owner number
-global.OwnerNumber = process.env.OWNER_NUMBER || "2347045174399" ;// Also owner number
-global.ownertag = process.env.OWNER_TAG || "2347045174399";// Also owner number
+/*global.Owner = process.env.OWNER || "2349137924240";// Owner number
+global.OwnerNumber = process.env.OWNER_NUMBER || "2349137924240" ;// Also owner number
+global.ownertag = process.env.OWNER_TAG || "2349137924240";// Also owner number
 global.sessID = process.env.sessID || ""; //Session ID here.
-global.OwnerName = process.env.OWNER_NAME || "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";// Owner Name
+global.OwnerName = process.env.OWNER_NAME || "ANONYMOUS";// Owner Name
 global.BotName = "🐦Makino-md-v2";//Do not change 🥵
-global.packname = process.env.PACKNAME || "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";//Sticker pack name.
+global.packname = process.env.PACKNAME || "ANONYMOUS";//Sticker pack name.
 global.author = "🐦Makino-md-v2 ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ";//Do not change                            //Do not change.
 global.BotSourceCode = "https://github.com/anonphoenix007/MAKINO-MD-V2"; //Do not change or bot will not function.
 global.SupportGroupLink = "https://chat.whatsapp.com/KEg0G3UUs1G39ikdyfF5Pm"; //Do not change!
 global.dbase = process.env.DBASE || "";//Mongodb here
 global.AuthorWhatsapp = "https://wa.me/2347080968564"; //Bot creator WhatsApp link,don't change or bot will not work.
 */
-global.Owner = [""];
-global.OwnerNumber = [""];
+global.Owner = ["ANONYMOUS"];
+global.OwnerNumber = ["2349137924240"];
 global.ownertag = [""]; 
-global.OwnerName =  "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";
+global.OwnerName =  "ANONYMOUS";
 global.BotName = "🐦Makino-md-v2";
-global.packname = "Tᴀɪʀᴀ Mᴀᴋɪɴᴏ";                             //Do not change.
-global.author = "🐦Makino md ᴍᴜʟᴛɪ-ᴅᴇᴠɪᴄᴇ";                               //Do not change.
+global.packname = "Tᴀ";                             //Do not change.
+global.author = "🐦Makino md ";                               //Do not change.
 global.BotSourceCode = "https://github.com/anonphoenix007/MAKINO-MD-V2"; //Do not change.
 global.SupportGroupLink = "https://chat.whatsapp.com/KEg0G3UUs1G39ikdyfF5Pm "; 
 global.sessID = process.env.sessID || ""; //Session ID here.
